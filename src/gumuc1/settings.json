@@ -1,0 +1,78 @@
+{"settings":{
+		"psshutdownPath":"C:\\pstools\\"
+	},
+"exposition":{
+	"projectors":[
+			{"ip":"10.8.3.1", "name":"dveri","viewX":720,"viewY":380,"angle":0},
+			{"ip":"10.8.3.2", "name":"214-1","viewX":490,"viewY":240,"angle":0},
+			{"ip":"10.8.3.3", "name":"214-2","viewX":410,"viewY":240,"angle":180},
+			{"ip":"10.8.3.4", "name":"bbk","viewX":460,"viewY":50,"angle":180},
+			{"ip":"10.8.3.5", "name":"myGULAG","viewX":220,"viewY":240,"angle":180},
+			{"ip":"10.8.3.6", "name":"reab","viewX":45,"viewY":110,"angle":180},
+			{"ip":"10.8.3.7", "name":"reab","viewX":125,"viewY":110,"angle":0},
+			{"ip":"10.8.3.8", "name":"bt","viewX":620,"viewY":50,"angle":180},
+			{"ip":"10.8.3.9", "name":"kp","viewX":350,"viewY":210,"angle":270},
+			{"ip":"10.8.3.10", "name":"proj","viewX":350,"viewY":30,"angle":270}			
+		],
+		
+	"relays":[
+			{"ip":"10.8.4.1", "name":"r1","viewX":540,"viewY":350},
+			{"ip":"10.8.4.2", "name":"r2","viewX":500,"viewY":350},
+			{"ip":"10.8.4.3", "name":"r3","viewX":460,"viewY":350},
+			{"ip":"10.8.4.4", "name":"r4","viewX":420,"viewY":350},
+			{"ip":"10.8.4.5", "name":"r5","viewX":380,"viewY":350},
+			{"ip":"10.8.4.6", "name":"r6","viewX":340,"viewY":350},
+			{"ip":"10.8.4.7", "name":"r7","viewX":300,"viewY":350},
+			{"ip":"10.8.4.8", "name":"r8","viewX":260,"viewY":350},
+			{"ip":"10.8.4.9", "name":"r9","viewX":220,"viewY":350},
+			{"ip":"10.8.4.10", "name":"r10","viewX":220,"viewY":400},		
+			{"ip":"10.8.4.11", "name":"r11","viewX":260,"viewY":450},			
+			{"ip":"10.8.4.12", "name":"r12","viewX":300,"viewY":450},			
+			{"ip":"10.8.4.13", "name":"r13","viewX":340,"viewY":450},			
+			{"ip":"10.8.4.14", "name":"r14","viewX":380,"viewY":450},			
+			{"ip":"10.8.4.15", "name":"r15","viewX":420,"viewY":450},			
+			{"ip":"10.8.4.16", "name":"r16","viewX":460,"viewY":450},			
+			{"ip":"10.8.4.17", "name":"r17","viewX":500,"viewY":450},			
+			{"ip":"10.8.4.18", "name":"r18","viewX":540,"viewY":450}	
+		],
+		
+	"brix":[
+			{"ip":"10.8.1.1","mac":"fc:aa:14:f3:35:73", "name":"Book",		"viewX":350,"viewY":250},
+			{"ip":"10.8.1.2","mac":"fc:aa:14:f3:35:ca", "name":"Doors",		"viewX":720,"viewY":110},
+			{"ip":"10.8.1.3","mac":"fc:aa:14:f3:35:e8", "name":"Projector",	"viewX":350,"viewY":70},
+			{"ip":"10.8.1.7","mac":"fc:aa:14:f3:35:f0", "name":"Lists",		"viewX":680,"viewY":50}
+		],
+		
+	"datatons":[
+			{"ip":"10.8.1.101","mac":"00:20:98:02:d0:aa", "name":"Reabilitation",	"viewX":85,"viewY":110},
+			{"ip":"10.8.1.102","mac":"00:20:98:02:d1:7e", "name":"MyGULAG",			"viewX":260,"viewY":240},
+			{"ip":"10.8.1.103","mac":"00:20:98:02:d1:09", "name":"BBK",				"viewX":500,"viewY":50},
+			{"ip":"10.8.1.104","mac":"00:20:98:02:cf:26", "name":"214",				"viewX":450,"viewY":240},
+			{"ip":"10.8.1.105","mac":"00:20:98:02:d1:25", "name":"Doors",			"viewX":720,"viewY":340, "master":"true"}
+		],
+		
+	"infokiosk":[
+			{"ip":"10.8.5.1","mac":"d8:cb:8a:97:44:25", "name":"Doors",				"viewX":620,"viewY":340},
+			{"ip":"10.8.5.2","mac":"d8:cb:8a:97:45:2b", "name":"BBK",			"viewX":500,"viewY":110},
+			{"ip":"10.8.5.3","mac":"d8:cb:8a:97:44:7e", "name":"Near214",				"viewX":300,"viewY":400},
+			{"ip":"10.8.5.4","mac":"d8:cb:8a:97:44:33", "name":"DeloVr",				"viewX":45,"viewY":200},
+			{"ip":"10.8.5.5","mac":"d8:cb:8a:97:44:26", "name":"Biblio",			"viewX":720,"viewY":440}
+		],
+				
+	"datatonShowName":"expofin",
+	
+	"datatonAuxTimelineNames":["Returns-right",
+				"Ours-days-left",
+				"BeginGULAG-214UP",
+				"Ot-aresta-214-right",
+				"Soviet-214-left",
+				"PN-dveri"
+		],
+	"datatonAuxTimelineWeeklyPrefix" : "MyGULAG",
+	"datatonAuxTimelineWeeklyNoOfSixes" : 2
+	},
+	
+"schedule":[
+		
+	]
+}

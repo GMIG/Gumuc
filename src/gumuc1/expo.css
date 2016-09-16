@@ -1,0 +1,32 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.text-area{
+	-fx-text-fill:blue 
+}
+
+/* basic settings */
+.LocalDatePicker { 
+		/*-fx-text-fill: -fx-accent;
+		-fx-background-color: RED; 
+		-fx-font-weight: bold;	
+					-fx-text-alignment:left ;
+					-fx-font-size:10;
+					-fx-text-origin:top ;
+								-fx-vpos: top;
+								
+											-fx-label-padding	:0.1%;*/
+		
+		
+}
+
+.day-button{
+	-fx-font-size:10;
+	-fx-text-origin:top ;
+	-fx-padding:0px;
+	-fx-text-alignment:center;
+									
+}
+.weekend { 
+	-fx-text-fill: BLACK;
+}
+
+
