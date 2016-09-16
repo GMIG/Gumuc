@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/mina-core-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/mina-statemachine-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jfxtras-controls-8.0-r4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jfxtras-controls-8.0-r4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jfxtras-controls-8.0-r4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jfxtras-common-8.0-r4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jfxtras-common-8.0-r4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jfxtras-common-8.0-r4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jfxtras-fxml-8.0-r4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jfxtras-fxml-8.0-r4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jfxtras-fxml-8.0-r4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jackson-core-2.6.4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jackson-core-2.6.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jackson-core-2.6.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jackson-databind-2.6.4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jackson-databind-2.6.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jackson-databind-2.6.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/jackson-annotations-2.6.4.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/jackson-annotations-2.6.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/jackson-annotations-2.6.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/JWorkspace/Gumuc1/lib/nanohttpd-2.2.0.jar" sourcepath="C:/JWorkspace/Gumuc1/lib/nanohttpd-2.2.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/JWorkspace/Gumuc1/lib/nanohttpd-2.2.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
