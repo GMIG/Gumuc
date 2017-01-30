@@ -78,7 +78,7 @@ public class ExpositionControl extends Application {
 	 */
 	private List<IPDeviceStateChangeController> controllers = new ArrayList<>();
 	
-	@Override
+	
 	public void init() {
 		try {
 			super.init();
@@ -196,7 +196,7 @@ public class ExpositionControl extends Application {
 				e.printStackTrace();
 			}
 		} catch (UnknownHostException e) {
-			logger.warn(settingsFilename + " contains wrong ip or mac addresses");
+			logger.warn(settingsFilename + " contains invalid ip or mac addresses");
 			e.printStackTrace();
 		}
 		  catch (JsonProcessingException e){
@@ -208,6 +208,7 @@ public class ExpositionControl extends Application {
 			logger.warn("no "+ PSShutdownExecutor.getPsshutdownexe() + " found");
 			logger.warn("brix power-off will not work");
 			e.printStackTrace();
+			
 		} catch (IOException e) {
 			logger.warn(settingsFilename + " reading error");
 			logger.warn("loading defaults - no UI available");

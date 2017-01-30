@@ -111,7 +111,7 @@ public class DatatonFSM {
     public void closeSessionOnInputClosed(Event event, IoSession session) {
     	if (event.getId().equals("inputClosed")){
     		@SuppressWarnings("unused")
-			CloseFuture future = session.close(false);
+			CloseFuture future = session.closeOnFlush();
     	}
     	//else
     		//System.out.println("unhandledEvent " + event);
@@ -121,7 +121,7 @@ public class DatatonFSM {
     public void closeSessionOnDatatonDisconnected(Event event, IoSession session, Throwable cause) {
     	if (cause instanceof java.io.IOException){
     		@SuppressWarnings("unused")
-			CloseFuture future = session.close(true);
+			CloseFuture future = session.closeNow();
     	}
     	//else
     		//System.out.println("unhandledEvent " + event);

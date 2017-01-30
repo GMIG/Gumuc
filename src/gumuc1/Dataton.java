@@ -6,9 +6,6 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.Observable;
-import java.util.Observer;
 import java.util.concurrent.LinkedBlockingDeque;
 
 import org.apache.mina.core.RuntimeIoException;

@@ -1,5 +1,5 @@
 {"settings":{
-		"psshutdownPath":"C:\\pstools\\"
+		"psshutdownPath":"C:\\"
 	},
 "exposition":{
 	"projectors":[
@@ -40,7 +40,9 @@
 			{"ip":"10.8.1.1","mac":"fc:aa:14:f3:35:73", "name":"Book",		"viewX":350,"viewY":250},
 			{"ip":"10.8.1.2","mac":"fc:aa:14:f3:35:ca", "name":"Doors",		"viewX":720,"viewY":110},
 			{"ip":"10.8.1.3","mac":"fc:aa:14:f3:35:e8", "name":"Projector",	"viewX":350,"viewY":70},
-			{"ip":"10.8.1.7","mac":"fc:aa:14:f3:35:f0", "name":"Lists",		"viewX":680,"viewY":50}
+			{"ip":"10.8.1.7","mac":"fc:aa:14:f3:35:f0", "name":"Lists",		"viewX":680,"viewY":50},
+						{"ip":"10.8.1.5","mac":"fc:aa:14:f3:35:f0", "name":"Lists",		"viewX":680,"viewY":50}
+			
 		],
 		
 	"datatons":[

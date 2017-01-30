@@ -5,9 +5,6 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.Observable;
-import java.util.Observer;
 
 public class Brix extends WOLEnabledDevice implements PowerSwitchable{
 	/**
@@ -110,8 +107,10 @@ public class Brix extends WOLEnabledDevice implements PowerSwitchable{
 	
 	public static void main(String[] args) {	
 		try{
-			Brix brixLMB = new Brix(("10.8.1.1"),"fc:aa:14:f3:35:73");//lmb 10.8.1.1
-			
+			Brix brixLMB = new Brix(("10.8.1.3"),"fc:aa:14:f3:35:73");//lmb 10.8.1.1
+			brixLMB.powerDown();
+			//brixLMB.establishConnected();
+			//brixLMB.restart();
 			//Brix brixDoors = new Brix(("10.8.1.2"),"fc:aa:14:f3:35:ca");//doors
 			//Brix brixProj = new Brix(("10.8.1.3"),"fc:aa:14:f3:35:e8");//doors
 			//Brix brixSpiski = new Brix(("10.8.1.7"),"fc:aa:14:f3:35:f0");//doors

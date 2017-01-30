@@ -60,7 +60,7 @@ public class ProjectorFSM {
     	
     	if (event.getId().equals("inputClosed")){
     		@SuppressWarnings("unused")
-			CloseFuture future = session.close(false);
+			CloseFuture future = session.closeOnFlush();
     	}
     	//else
     		//System.out.println("unhandledEvent " + event);

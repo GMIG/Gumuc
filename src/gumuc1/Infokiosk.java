@@ -2,9 +2,6 @@ package gumuc1;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.Observable;
-import java.util.Observer;
 
 public class Infokiosk extends Brix {
 

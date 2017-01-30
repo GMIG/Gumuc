@@ -325,9 +325,16 @@ public class Exposition {
 				"01-30.mpg",
 
 			};
-			
+			LocalDate date = LocalDate.now().plusDays(1);
+			TemporalField woy = WeekFields.of(Locale.getDefault()).weekOfWeekBasedYear(); 
+			int weekNumber = date.get(woy);
+			int noOfFile = date.getDayOfWeek().getValue() - 1;
+			if (date.getDayOfWeek().equals(DayOfWeek.MONDAY)) 
+				noOfFile = (int)(Math.random()*6+1);
+			noOfFile += 6*(weekNumber % 5);
+		
 			HashMap <Integer,ArrayList<LocalDate>> map = new HashMap<>();
-
+	/*
 			for(int i=0;i < files.length;i++){
 				map.put(i, new ArrayList<LocalDate>());
 			}
@@ -349,7 +356,7 @@ public class Exposition {
 				map.get(num).forEach((date)->System.out.print(date + ", "));
 				System.out.println();
 			}
-			);
+			);*/
 
 			//Exposition expo = new Exposition();
 			//expo.initDefaultBrixes();
